@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 np.random.seed(100)
 tf.random.set_seed(100)
 
-df = pd.read_csv("./Advertising.csv")
+df = pd.read_csv("./data/Advertising.csv")
 df.head()
 
 df = df.drop(columns=['Unnamed: 0'])
